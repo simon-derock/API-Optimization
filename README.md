@@ -21,11 +21,6 @@ A high-performance Spring Boot service that optimizes container placement in por
 ```bash
 # Build the project
 mvn clean install
-
-
-
-
-
 # Run with GC optimization
 mvn spring-boot:run -Dspring-boot.run.jvmArguments="-XX:+UseG1GC -XX:MaxGCPauseMillis=100 -XX:+UseStringDeduplication -Xms256m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError"
 ```
@@ -140,7 +135,6 @@ MIT License
 4. Push to branch
 5. Create Pull Request)
 ```
-
 ### 2. Slot Model
 ```java
 record Slot(
