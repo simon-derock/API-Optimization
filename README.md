@@ -1,6 +1,7 @@
 # Container API Optimization Service
+***Developed by: PHILIP SIMON DEROCK P***
 
-> High-Performance Container Placement API with GARBAGE COLLECTION and Response Time Optimization
+> High-Performance Container Placement API with GC and Response Time Optimization
 
 ## Problem Overview
 A high-performance Spring Boot service that optimizes container placement in port yards. The service processes incoming container placement requests and determines the optimal slot based on multiple constraints including distance, size compatibility, cold storage requirements, and occupancy.
@@ -53,10 +54,10 @@ container-placement/
 {
   "container": {
     "id": "C1",
-    "size": "small",    // "small" or "big"
-    "needsCold": false,   // true if refrigeration needed
-    "x": 1,              // current x coordinate
-    "y": 1               // current y coordinate
+    "size": "small",    
+    "needsCold": false,   
+    "x": 1,              
+    "y": 1               
   },
   "yardMap": [
     {
@@ -197,7 +198,8 @@ The slot with the lowest valid score is chosen for placement.
 
 1. Start the service:
 ```bash
-mvn spring-boot:run
+mvn spring-boot:run -Dspring-boot.run.jvmArguments="-XX:+UseG1GC -XX:MaxGCPauseMillis=100 -XX:+UseStringDeduplication -Xms256m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError" 
+
 ```
 
 2. Make a request:
