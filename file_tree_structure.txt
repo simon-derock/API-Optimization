@@ -1,0 +1,20 @@
+container-placement/
+├── pom.xml
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── dev/
+│   │   │       └── port/
+│   │   │           ├── App.java
+│   │   │           ├── model/
+│   │   │           │   └── Yard.java
+│   │   │           └── service/
+│   │   │               └── PlacementService.java
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       └── java/
+│           └── dev/
+│               └── port/
+│                   └── YardTest.java
+└── README.md

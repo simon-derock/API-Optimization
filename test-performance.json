@@ -1,0 +1,26 @@
+{
+  "container": {
+    "id": "C7",
+    "size": "small",
+    "needsCold": false,
+    "x": 10,
+    "y": 10
+  },
+  "yardMap": [
+    {"x": 0, "y": 0, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 0, "y": 1, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 0, "y": 2, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 1, "y": 0, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 1, "y": 1, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 1, "y": 2, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 2, "y": 0, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 2, "y": 1, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 2, "y": 2, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 3, "y": 0, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 3, "y": 1, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 3, "y": 2, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 4, "y": 0, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 4, "y": 1, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 4, "y": 2, "sizeCap": "small", "hasColdUnit": false, "occupied": false}
+  ]
+}

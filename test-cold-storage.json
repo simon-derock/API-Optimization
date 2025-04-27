@@ -1,0 +1,13 @@
+{
+  "container": {
+    "id": "C2",
+    "size": "small",
+    "needsCold": true,
+    "x": 1,
+    "y": 1
+  },
+  "yardMap": [
+    {"x": 1, "y": 2, "sizeCap": "small", "hasColdUnit": false, "occupied": false},
+    {"x": 2, "y": 2, "sizeCap": "small", "hasColdUnit": true, "occupied": false}
+  ]
+}
